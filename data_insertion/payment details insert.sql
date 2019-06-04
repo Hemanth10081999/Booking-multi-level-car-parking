@@ -1,10 +1,13 @@
-insert into [dbo].[payment] values(1,1,5,1)
-insert into [dbo].[payment] values(2,1,20,2)
-insert into [dbo].[payment] values(3,1,30,3)
-insert into [dbo].[payment] values(4,1,20,4)
-insert into [dbo].[payment] values(5,1,20,5)
-insert into [dbo].[payment] values(6,1,30,6)
-insert into [dbo].[payment] values(7,1,5,7)
-insert into [dbo].[payment] values(8,1,30,8)
-insert into [dbo].[payment] values(9,1,30,9)
-insert into [dbo].[payment] values(10,1,5,10)
+insert into [dbo].[payment] values(1,1,5)
+insert into [dbo].[payment] values(1,2,20)
+insert into [dbo].[payment] values(1,3,30)
+insert into [dbo].[payment] values(1,4,20)
+insert into [dbo].[payment] values(1,5,20)
+insert into [dbo].[payment] values(1,6,30)
+insert into [dbo].[payment] values(1,7,5)
+insert into [dbo].[payment] values(1,8,30)
+insert into [dbo].[payment] values(1,9,30)
+insert into [dbo].[payment] values(1,10,5)
+
+
+select * from [dbo].[payment]

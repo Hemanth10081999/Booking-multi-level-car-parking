@@ -1,4 +1,4 @@
-USE [multi level parking]
+USE [book parking slot]
 GO
 
 /****** Object:  Table [dbo].[car]    Script Date: 5/31/2019 8:56:07 PM ******/
@@ -9,7 +9,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[vehicle](
-	[vehicle id] [int] NOT NULL primary key,
+	[vehicle id] [int] NOT NULL primary key identity(1,1),
 	[login id] int NOT NULL foreign key references [dbo].[login] ([login ID]),
 	[vehicle name] [varchar](20) NULL,
 	[vehicle type] [varchar](30) not null,
